@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cfe77a5-41e0-4b18-85ac-05c84f00736f" name="Changes" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/testTicketTable/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/20230313.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/20230313.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/0da3dec0-3933-4af2-bfcc-36bb4bd56abd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/1cb06362-08cc-40bc-ae80-b53e56748279-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/3de10397-ec4e-4bf0-9aa8-2060e45cef51-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/cc990c9e-7992-4c56-96f6-1501bf379d5c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/testTicketTable/test_addTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/testTicketTable/test_addTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/testTicketTable/test_addTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/testTicketTable/test_addTask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_data.py" afterDir="false" />
+    <list default="true" id="3cfe77a5-41e0-4b18-85ac-05c84f00736f" name="Changes" comment="完成字典表任务和步骤新增">
+      <change beforePath="$PROJECT_DIR$/testcases/report/2372fb0f-70c9-43a6-890b-d1cb288db478-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/report/26a746f6-7119-4a3e-a95f-2f52ae0526cf-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,8 +219,16 @@
       <workItem from="1678266398837" duration="3390000" />
       <workItem from="1678322160946" duration="780000" />
       <workItem from="1678322959078" duration="15179000" />
-      <workItem from="1678428817943" duration="45121000" />
+      <workItem from="1678428817943" duration="45539000" />
     </task>
+    <task id="LOCAL-00001" summary="完成字典表任务和步骤新增">
+      <created>1678702708871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678702708871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +247,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+    <MESSAGE value="完成字典表任务和步骤新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成字典表任务和步骤新增" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py$pytest_for_test_one_TestLogin.coverage" NAME="pytest for test_one.TestLogin Coverage Results" MODIFIED="1678266172021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/testTicketTable" />
