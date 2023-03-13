@@ -1,0 +1,17 @@
+[32mINFO    [0m log:rest_client.py:52 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/table
+[32mINFO    [0m log:rest_client.py:53 接口请求的方法>>>post
+[32mINFO    [0m log:rest_client.py:57 接口请求的参数>>>
+{
+  "type": "1",
+  "name": "J\u95f5\u884c\u5f00\u53d1\u533a\u505c\u5f796959",
+  "line": 3,
+  "substation": 919,
+  "code": "fss45hg463",
+  "id": "",
+  "fileName": ""
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求头的参数>>>
+{
+  "Authorization": "de7d00a1-9d76-4063-8faf-4abf663c2a5a",
+  "Content-Type": "application/json"
+}

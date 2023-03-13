@@ -1,0 +1,65 @@
+
+table:
+  json_data: {
+    "type": "1",
+    "name": "J闵行开发区停役6959",
+    "line": 3,
+    "substation": 919,
+    "code": '3453dgg',
+    "id": "",
+    "fileName": ""
+
+}
+  Authorization: de7d00a1-9d76-4063-8faf-4abf663c2a5a
+
+#登录接口参数
+login:
+  json_data:
+    code: "3"
+    password: "1234Yzn@"
+    t: 1678429484623
+    username: "Yuzhn"
+    uuid: "666c3e7b00c44f8f9e77f8a820b99418"
+
+#新增典操表参数
+tableyaml:
+  json_data:
+      type: '1'
+      name: 'API闵行开发区停役${age()}'
+      line: 3
+      substation: 919
+      code: API${random_unix_time()}
+      id: ""
+      fileName: ""
+#新增任务参数
+taskyaml:
+  json_data:
+      code: APItask${random_unix_time()}
+      taskName: 停役api闵行开发任务${random_unix_time()}
+      edit: true
+      id:
+      tableId: 192
+
+
+
+
+#测试用参数
+test:
+  name: login_case1
+  request:
+    url: http://xxx.xx.xx.x/api/v1/login/
+    method: post
+    headers:
+      Content-Type: application/json
+    json:
+      username: test
+      password: 123456
+      heros_name_list:
+        - - 安其拉
+          - 黄忠
+          - 小乔
+        - - 安其拉
+          - 黄忠
+          - 小乔
+        - name: 黄忠
+          word: 周日被我熄火了
