@@ -32,6 +32,6 @@ class FileRead:
         return config
 
 get_data=FileRead()
-print(get_data.read_data())
-print(get_data.read_ini()['host']['54_url'])
-print(get_data.read_data()['login']['json_data'])
+#print(get_data.read_data()['taskyaml'])
+#print(get_data.read_ini()['host']['54_url'])
+print(get_data.read_data()['taskyaml'])

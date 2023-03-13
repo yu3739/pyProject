@@ -31,6 +31,14 @@ class api_util(RestClient):
         """
         #新增典操表
         return self.post('/mro/ticketClassicOperationTable/task',**kwargs)
+    def addStep_data(self,**kwargs):
+        """
+        新增典操表任务写入path
+        :param kwargs:
+        :return:
+        """
+        #新增典操表
+        return self.post('/mro/ticketClassicOperationTable/step',**kwargs)
 
 
 #初始化类，别的文件可用

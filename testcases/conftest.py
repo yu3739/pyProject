@@ -4,11 +4,13 @@ import os
 import allure
 import pytest
 from api.api import login
-from testcases.testTicketTable.test_addTable import TestTable
+# from testcases.testTicketTable.test_addTable import TestTable
+# from utils.log_util import logger
+
 #from utils.mysql_utils import db
 from utils.read_data import get_data
 
-@pytest.fixture  #每个用例执行前都会执行一次这个方法，如果引用过的话
+@pytest.fixture()  #每个用例执行前都会执行一次这个方法，如果引用过的话
 @allure.step('先登录获取token')
 def login_fixture():
     if 'token' not in os.environ:
@@ -35,7 +37,5 @@ def login_fixture():
 # a=TestTable()
 # print("======" + a.test_add_table())
 
-def test_a():
-    a=TestTable.test_add_table()
-    print('dffdfdffdfdfdfdf'+a)
+
 
