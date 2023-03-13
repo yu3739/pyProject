@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cfe77a5-41e0-4b18-85ac-05c84f00736f" name="Changes" comment="完成字典表任务和步骤新增">
-      <change beforePath="$PROJECT_DIR$/testcases/report/2372fb0f-70c9-43a6-890b-d1cb288db478-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/report/26a746f6-7119-4a3e-a95f-2f52ae0526cf-result.json" beforeDir="false" />
+    <list default="true" id="3cfe77a5-41e0-4b18-85ac-05c84f00736f" name="Changes" comment="step">
+      <change beforePath="$PROJECT_DIR$/testcases/testTicketTable/test_addStep.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/testTicketTable/test_addStep.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +218,7 @@
       <workItem from="1678266398837" duration="3390000" />
       <workItem from="1678322160946" duration="780000" />
       <workItem from="1678322959078" duration="15179000" />
-      <workItem from="1678428817943" duration="45539000" />
+      <workItem from="1678428817943" duration="45958000" />
     </task>
     <task id="LOCAL-00001" summary="完成字典表任务和步骤新增">
       <created>1678702708871</created>
@@ -228,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678702708871</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成字典表任务和步骤新增">
+      <created>1678702813313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678702813313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="step">
+      <created>1678702928422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678702928422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <MESSAGE value="完成字典表任务和步骤新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成字典表任务和步骤新增" />
+    <MESSAGE value="step" />
+    <option name="LAST_COMMIT_MESSAGE" value="step" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py$pytest_for_test_one_TestLogin.coverage" NAME="pytest for test_one.TestLogin Coverage Results" MODIFIED="1678266172021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/testTicketTable" />
