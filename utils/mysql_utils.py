@@ -53,7 +53,7 @@ class MysqlDB:
         logger.info(f'执行sql:{sql}')
         self.cur.execute(sql)
         result = self.cur.fetchall()
-        #logger.info(f'sql执行结果：{result}')
+        logger.info(f'sql执行结果：{result}')
         # 获取多条数据
         return result
     #更新数据

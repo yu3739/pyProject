@@ -6959,3 +6959,192 @@
   "Content-Type": "application/json"
 }
 [2023-03-13 18:19:44,092][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}
+[2023-03-13 18:31:58,440][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/auth/login
+[2023-03-13 18:31:58,440][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:31:58,441][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "code": "3",
+  "password": "1234Yzn@",
+  "t": 1678429484623,
+  "username": "Yuzhn",
+  "uuid": "666c3e7b00c44f8f9e77f8a820b99418"
+}
+[2023-03-13 18:31:58,635][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": null, "data": {"access_token": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6", "userInfo": {"token": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6", "userid": 2260, "username": "Yuzhn", "loginTime": 1678703517799, "expireTime": 1678746717799, "ipaddr": "10.89.5.51", "permissions": ["system:user:resetPwd", "tech:process:list", "system:user:remove", "system:dept:remove", "system:menu:query", "system:menu:list", "system:role:list", "cm:industryclassification:info", "system:user:import", "work:table:list", "system:user:edit", "system:user:query", "proc:repairorder:confirmAndDistribute", "faultKnowledge:faultknowledgemanage:export", "system:role:edit", "system:user:add", "proc:repairorder:list", "system:dept:list", "system:user:export", "system:role:remove", "tech:process:info", "system:role:add", "proc:repairorder:close", "work:schedule:detail", "system:dept:query", "faultKnowledge:faultknowledgemanage:startProccess", "system:dept:edit", "system:user:list", "faultKnowledge:faultknowledgemanage:excelImport", "faultKnowledge:faultknowledgemanage:list", "proc:repairorder:update", "proc:repairorder:submit", "system:role:export", "work:schedule:list", "proc:repairorder:save", "proc:repairorder:delete", "work:schedule:requestDate", "faultKnowledge:faultknowledgemanage:savePre", "proc:repairorder:listToConfirm", "proc:repairorder:reject", "faultKnowledge:faultknowledgemanage:remove", "faultKnowledge:faultknowledgemanage:update", "system:role:query", "system:dept:add"], "roles": ["common"], "sysUser": {"createBy": "admin", "createTime": null, "updateBy": null, "updateTime": null, "userId": 2260, "deptId": 26, "lvl": null, "userName": "Yuzhn", "nickName": null, "email": "", "mobile": "13652365896", "gender": null, "genderName": null, "age": null, "avatar": "", "avatarName": null, "password": "$2a$10$4oYGiYJAp1VHwRE3m1YfauclWdeDk3QHrkc9CJP.4mxn0qQMno1J2", "status": "0", "delFlag": "0", "loginIp": "", "loginDate": null, "dept": {"createBy": null, "createTime": null, "updateBy": null, "updateTime": null, "deptId": 26, "parentId": 1, "ancestors": null, "deptName": "车辆部", "orderNum": "0", "leader": null, "phone": null, "email": null, "status": "0", "delFlag": null, "parentName": null, "children": [], "parent": null, "lvl": null, "isHavePermissions": null, "deptFlag": null, "createByName": null}, "roles": [{"createBy": null, "createTime": null, "updateBy": null, "updateTime": null, "roleId": 444, "roleName": "YY故障角色车辆专业", "roleKey": "common", "roleSort": null, "dataScope": "1", "menuCheckStrictly": null, "deptCheckStrictly": null, "remark": null, "status": "0", "delFlag": null, "flag": false, "menuIds": null, "deptIds": null, "admin": false}], "roleIds": null, "roleId": null, "name": "余贞妮", "workNumber": null, "job": 21, "jobName": null, "workingYears": null, "employForm": null, "employFormName": null, "entryDate": null, "politicalOutlook": null, "politicalOutlookName": null, "cardId": null, "nativePlace": null, "cornet": null, "addr": null, "carNumber": null, "vehicleNumber": null, "external": 0, "photo": null, "remark": null, "upDepts": null, "workType": null, "firstLogin": 0, "lastCheckPwdDate": "2023-03-08T16:00:00.000+00:00", "isRemind": null, "isExpireRemind": null, "needCheckPwd": 0, "admin": false}, "deptAccess": {"system:user:query": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:delete": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:list": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:close": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:submit": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:listToConfirm": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:confirmAndDistribute": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "work:schedule:detail": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "system:menu:query": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "system:menu:list": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "work:table:list": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "system:dept:query": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:update": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "cm:industryclassification:info": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "work:schedule:list": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:save": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "work:schedule:requestDate": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:reject": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "system:dept:list": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "system:user:list": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253"}, "professionAccess": {"system:user:query": "CLZY,JDZY,WBZY,CSZY", "proc:repairorder:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,WBZY", "work:schedule:detail": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY", "system:menu:query": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,CLZY,JDZY,WBZY,CSZY", "system:menu:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,CLZY,JDZY,WBZY,CSZY", "work:table:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8", "work:schedule:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8", "work:schedule:requestDate": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY", "system:user:list": "CLZY,JDZY,WBZY,CSZY"}}, "expires_in": 43200}}
+[2023-03-13 18:31:58,657][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/table
+[2023-03-13 18:31:58,657][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:31:58,658][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "type": "1",
+  "name": "API闵行开发区停役15688",
+  "line": 3,
+  "substation": 919,
+  "code": "API75968544",
+  "id": "",
+  "fileName": ""
+}
+[2023-03-13 18:31:58,658][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:31:58,743][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[2023-03-13 18:31:58,754][mysql_utils.py 37][INFO]: 执行sql:select id from ticket_classic_operation_table where name='API闵行开发区停役15688' order by id desc
+[2023-03-13 18:31:58,756][mysql_utils.py 42][INFO]: sql执行结果：{'id': 423}
+[2023-03-13 18:31:58,764][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/task
+[2023-03-13 18:31:58,765][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:31:58,765][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "code": "APItask699987661",
+  "taskName": "停役api闵行开发任务814860399",
+  "edit": true,
+  "tableId": "423"
+}
+[2023-03-13 18:31:58,767][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:31:58,822][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[2023-03-13 18:31:58,837][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/task
+[2023-03-13 18:31:58,838][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:31:58,839][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "code": "APItask1111879950",
+  "taskName": "停役api闵行开发任务1509361765",
+  "edit": true,
+  "tableId": "423"
+}
+[2023-03-13 18:31:58,840][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:31:58,886][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[2023-03-13 18:31:58,899][mysql_utils.py 53][INFO]: 执行sql:select id,code from ticket_classic_operation_table_task where table_id='423'
+[2023-03-13 18:31:58,916][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/step
+[2023-03-13 18:31:58,917][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:31:58,917][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "step": "停役典操表的步骤950751045",
+  "edit": true,
+  "code": "APItask699987661",
+  "taskId": 2794,
+  "tableId": "423"
+}
+[2023-03-13 18:31:58,918][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:31:58,937][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}
+[2023-03-13 18:31:58,943][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/step
+[2023-03-13 18:31:58,943][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:31:58,944][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "step": "停役典操表的步骤578368449",
+  "edit": true,
+  "code": "APItask1111879950",
+  "taskId": 2795,
+  "tableId": "423"
+}
+[2023-03-13 18:31:58,944][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "6b989f4a-0c87-47e9-aa18-40cdd9c9cbf6",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:31:58,967][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}
+[2023-03-13 18:35:42,958][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/auth/login
+[2023-03-13 18:35:42,958][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:35:42,958][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "code": "3",
+  "password": "1234Yzn@",
+  "t": 1678429484623,
+  "username": "Yuzhn",
+  "uuid": "666c3e7b00c44f8f9e77f8a820b99418"
+}
+[2023-03-13 18:35:43,134][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": null, "data": {"access_token": "f13b0884-e656-4c29-bdbd-56d79062e0a2", "userInfo": {"token": "f13b0884-e656-4c29-bdbd-56d79062e0a2", "userid": 2260, "username": "Yuzhn", "loginTime": 1678703742298, "expireTime": 1678746942298, "ipaddr": "10.89.5.51", "permissions": ["system:user:resetPwd", "tech:process:list", "system:user:remove", "system:dept:remove", "system:menu:query", "system:menu:list", "system:role:list", "cm:industryclassification:info", "system:user:import", "work:table:list", "system:user:edit", "system:user:query", "proc:repairorder:confirmAndDistribute", "faultKnowledge:faultknowledgemanage:export", "system:role:edit", "system:user:add", "proc:repairorder:list", "system:dept:list", "system:user:export", "system:role:remove", "tech:process:info", "system:role:add", "proc:repairorder:close", "work:schedule:detail", "system:dept:query", "faultKnowledge:faultknowledgemanage:startProccess", "system:dept:edit", "system:user:list", "faultKnowledge:faultknowledgemanage:excelImport", "faultKnowledge:faultknowledgemanage:list", "proc:repairorder:update", "proc:repairorder:submit", "system:role:export", "work:schedule:list", "proc:repairorder:save", "proc:repairorder:delete", "work:schedule:requestDate", "faultKnowledge:faultknowledgemanage:savePre", "proc:repairorder:listToConfirm", "proc:repairorder:reject", "faultKnowledge:faultknowledgemanage:remove", "faultKnowledge:faultknowledgemanage:update", "system:role:query", "system:dept:add"], "roles": ["common"], "sysUser": {"createBy": "admin", "createTime": null, "updateBy": null, "updateTime": null, "userId": 2260, "deptId": 26, "lvl": null, "userName": "Yuzhn", "nickName": null, "email": "", "mobile": "13652365896", "gender": null, "genderName": null, "age": null, "avatar": "", "avatarName": null, "password": "$2a$10$4oYGiYJAp1VHwRE3m1YfauclWdeDk3QHrkc9CJP.4mxn0qQMno1J2", "status": "0", "delFlag": "0", "loginIp": "", "loginDate": null, "dept": {"createBy": null, "createTime": null, "updateBy": null, "updateTime": null, "deptId": 26, "parentId": 1, "ancestors": null, "deptName": "车辆部", "orderNum": "0", "leader": null, "phone": null, "email": null, "status": "0", "delFlag": null, "parentName": null, "children": [], "parent": null, "lvl": null, "isHavePermissions": null, "deptFlag": null, "createByName": null}, "roles": [{"createBy": null, "createTime": null, "updateBy": null, "updateTime": null, "roleId": 444, "roleName": "YY故障角色车辆专业", "roleKey": "common", "roleSort": null, "dataScope": "1", "menuCheckStrictly": null, "deptCheckStrictly": null, "remark": null, "status": "0", "delFlag": null, "flag": false, "menuIds": null, "deptIds": null, "admin": false}], "roleIds": null, "roleId": null, "name": "余贞妮", "workNumber": null, "job": 21, "jobName": null, "workingYears": null, "employForm": null, "employFormName": null, "entryDate": null, "politicalOutlook": null, "politicalOutlookName": null, "cardId": null, "nativePlace": null, "cornet": null, "addr": null, "carNumber": null, "vehicleNumber": null, "external": 0, "photo": null, "remark": null, "upDepts": null, "workType": null, "firstLogin": 0, "lastCheckPwdDate": "2023-03-08T16:00:00.000+00:00", "isRemind": null, "isExpireRemind": null, "needCheckPwd": 0, "admin": false}, "deptAccess": {"system:user:query": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:delete": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:list": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:close": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:submit": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:listToConfirm": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "proc:repairorder:confirmAndDistribute": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "work:schedule:detail": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "system:menu:query": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "system:menu:list": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "work:table:list": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "system:dept:query": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:update": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "cm:industryclassification:info": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "work:schedule:list": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:save": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "work:schedule:requestDate": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "proc:repairorder:reject": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253", "system:dept:list": "253,240,241,41,42,43,44,50,265,266,231,232,33,35,36,38,39,260,261,262,7,263,8,2,3,259,6,26,27,45,216,246,250,251,252,1", "system:user:list": "1,2,260,261,262,7,263,8,3,259,6,33,35,36,38,39,26,265,266,231,232,27,41,42,43,44,50,45,216,240,241,246,250,251,252,253"}, "professionAccess": {"system:user:query": "CLZY,JDZY,WBZY,CSZY", "proc:repairorder:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,WBZY", "work:schedule:detail": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY", "system:menu:query": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,CLZY,JDZY,WBZY,CSZY", "system:menu:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,CLZY,JDZY,WBZY,CSZY", "work:table:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8", "work:schedule:list": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY,CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8", "work:schedule:requestDate": "CLZY,GDZY,THZY,JDZY,WBZY,CSZY,CSZYE,8,GWZY", "system:user:list": "CLZY,JDZY,WBZY,CSZY"}}, "expires_in": 43200}}
+[2023-03-13 18:35:43,145][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/table
+[2023-03-13 18:35:43,145][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:35:43,145][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "type": "1",
+  "name": "API闵行开发区停役15627",
+  "line": 3,
+  "substation": 919,
+  "code": "API1135783330",
+  "id": "",
+  "fileName": ""
+}
+[2023-03-13 18:35:43,146][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:35:43,196][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[2023-03-13 18:35:43,209][mysql_utils.py 37][INFO]: 执行sql:select id from ticket_classic_operation_table where name='API闵行开发区停役15627' order by id desc
+[2023-03-13 18:35:43,210][mysql_utils.py 42][INFO]: sql执行结果：{'id': 424}
+[2023-03-13 18:35:43,223][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/task
+[2023-03-13 18:35:43,224][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:35:43,225][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "code": "APItask413787453",
+  "taskName": "停役api闵行开发任务1417989487",
+  "edit": true,
+  "tableId": "424"
+}
+[2023-03-13 18:35:43,225][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:35:43,259][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[2023-03-13 18:35:43,270][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/task
+[2023-03-13 18:35:43,270][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:35:43,270][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "code": "APItask1417166285",
+  "taskName": "停役api闵行开发任务1374828720",
+  "edit": true,
+  "tableId": "424"
+}
+[2023-03-13 18:35:43,270][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:35:43,300][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[2023-03-13 18:35:43,309][mysql_utils.py 53][INFO]: 执行sql:select id,code from ticket_classic_operation_table_task where table_id='424'
+[2023-03-13 18:35:43,310][mysql_utils.py 56][INFO]: sql执行结果：[{'id': 2796, 'code': 'APItask413787453'}, {'id': 2797, 'code': 'APItask1417166285'}]
+[2023-03-13 18:35:43,322][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/step
+[2023-03-13 18:35:43,322][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:35:43,322][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "step": "停役典操表的步骤264295199",
+  "edit": true,
+  "code": "APItask413787453",
+  "taskId": 2796,
+  "tableId": "424"
+}
+[2023-03-13 18:35:43,323][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:35:43,345][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}
+[2023-03-13 18:35:43,352][rest_client.py 52][INFO]: 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/step
+[2023-03-13 18:35:43,352][rest_client.py 53][INFO]: 接口请求的方法>>>post
+[2023-03-13 18:35:43,353][rest_client.py 57][INFO]: 接口请求的参数>>>
+{
+  "step": "停役典操表的步骤771696377",
+  "edit": true,
+  "code": "APItask1417166285",
+  "taskId": 2797,
+  "tableId": "424"
+}
+[2023-03-13 18:35:43,353][rest_client.py 61][INFO]: 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[2023-03-13 18:35:43,375][response_util.py 12][INFO]: 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}

@@ -1,0 +1,1 @@
+{"uuid": "ef43fec1-31b4-4feb-b937-6073c1b3d41d", "children": ["e3749f61-0761-4451-be69-03ac1043f8f3"], "befores": [{"name": "login_fixture", "status": "passed", "steps": [{"name": "先登录获取token", "status": "passed", "start": 1678703743208, "stop": 1678703743208}], "start": 1678703743208, "stop": 1678703743208}], "start": 1678703743207, "stop": 1678703743302}

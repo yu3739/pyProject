@@ -1,0 +1,34 @@
+[32mINFO    [0m log:mysql_utils.py:53 执行sql:select id,code from ticket_classic_operation_table_task where table_id='424'
+[32mINFO    [0m log:mysql_utils.py:56 sql执行结果：[{'id': 2796, 'code': 'APItask413787453'}, {'id': 2797, 'code': 'APItask1417166285'}]
+[32mINFO    [0m log:rest_client.py:52 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/step
+[32mINFO    [0m log:rest_client.py:53 接口请求的方法>>>post
+[32mINFO    [0m log:rest_client.py:57 接口请求的参数>>>
+{
+  "step": "停役典操表的步骤264295199",
+  "edit": true,
+  "code": "APItask413787453",
+  "taskId": 2796,
+  "tableId": "424"
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[32mINFO    [0m log:response_util.py:12 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}
+[32mINFO    [0m log:rest_client.py:52 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/step
+[32mINFO    [0m log:rest_client.py:53 接口请求的方法>>>post
+[32mINFO    [0m log:rest_client.py:57 接口请求的参数>>>
+{
+  "step": "停役典操表的步骤771696377",
+  "edit": true,
+  "code": "APItask1417166285",
+  "taskId": 2797,
+  "tableId": "424"
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[32mINFO    [0m log:response_util.py:12 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": true}

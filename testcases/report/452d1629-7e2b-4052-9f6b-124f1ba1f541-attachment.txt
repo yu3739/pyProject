@@ -1,0 +1,32 @@
+[32mINFO    [0m log:mysql_utils.py:37 执行sql:select id from ticket_classic_operation_table where name='API闵行开发区停役15627' order by id desc
+[32mINFO    [0m log:mysql_utils.py:42 sql执行结果：{'id': 424}
+[32mINFO    [0m log:rest_client.py:52 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/task
+[32mINFO    [0m log:rest_client.py:53 接口请求的方法>>>post
+[32mINFO    [0m log:rest_client.py:57 接口请求的参数>>>
+{
+  "code": "APItask413787453",
+  "taskName": "停役api闵行开发任务1417989487",
+  "edit": true,
+  "tableId": "424"
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[32mINFO    [0m log:response_util.py:12 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
+[32mINFO    [0m log:rest_client.py:52 接口请求的地址>>>http://10.89.33.54:3001/mro/ticketClassicOperationTable/task
+[32mINFO    [0m log:rest_client.py:53 接口请求的方法>>>post
+[32mINFO    [0m log:rest_client.py:57 接口请求的参数>>>
+{
+  "code": "APItask1417166285",
+  "taskName": "停役api闵行开发任务1374828720",
+  "edit": true,
+  "tableId": "424"
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求头的参数>>>
+{
+  "Authorization": "f13b0884-e656-4c29-bdbd-56d79062e0a2",
+  "Content-Type": "application/json"
+}
+[32mINFO    [0m log:response_util.py:12 接口返回的内容>>>: {"code": 200, "msg": "操作成功", "data": null}
